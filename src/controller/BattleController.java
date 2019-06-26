@@ -39,9 +39,9 @@ public class BattleController {
         battleLogicController.setGameLogic(gameLogic);
         battleLogicController.setMatch(match);
         BattleLog.logTurnForWho(match.findPlayerPlayingThisTurn().getUserName());
-        Main.match = match;
-        Main.main(null);
-        //manageRequest();
+        //Main.match = match;
+        //Main.main(null);
+        manageRequest();
     }
 
     private void manageRequest() {

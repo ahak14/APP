@@ -2,6 +2,8 @@ package models;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 
 import java.io.File;
 import java.io.FileReader;
@@ -77,6 +79,9 @@ public class JsonToCard {
             try (Reader reader = new FileReader(listOfFile)) {
                 Spell card = gson.fromJson(reader, Spell.class);
                 collection.addCardToCollection(card);
+                if (card.getCardName().equals("sacrifice")) {
+                    System.out.println(gson.toJson(card));
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }

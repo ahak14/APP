@@ -1,9 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="custom card added">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="game logic changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/GamePlay/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/GamePlay/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleLogicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleLogicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CollectionController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CollectionController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CollectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CollectionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CollectionErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CollectionErrors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/DeckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/DeckController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/ShopController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/ShopController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Account$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Account$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Buff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Buff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/CardType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Collection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Coordination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Coordination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Deck$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Deck$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GameLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GraveYard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GraveYard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GamePlay/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GamePlay/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GameStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GameStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Hand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/JsonToCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/JsonToCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/LoginMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/LoginMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/MatchType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/MatchType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/SpecialMinion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/SpecialMinion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/SpecialPowerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/SpecialPowerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Spell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Target.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/TargetData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/TargetData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/TargetType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/TargetType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Unit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/models/UnitType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/UnitType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountMenuRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountCreate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountLoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountLoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountOptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountOptionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountSimpleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountSimpleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/BattleMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/BattleMenuRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/CustomGameRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/CustomGameRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/MultiPlayerMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/MultiPlayerMenuRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/RequestMatchType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/RequestMatchType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/EnterGraveYardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/EnterGraveYardRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/InsertCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/InsertCardRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariableEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariableEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/SelectAndUseCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/SelectAndUseCardRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/ShowCardInfoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/ShowCardInfoRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/CollectionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/CollectionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/CollectionOptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/CollectionOptionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/DeckCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/DeckCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Remove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Remove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/SimpleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/SimpleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/ShopRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/ShopRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/CommandType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestWithOutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestWithOutVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopSimpleRequestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopSimpleRequestList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/startMenuController/StartMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/startMenuController/StartMenuRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOptionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/BattleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/BattleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/EnterGraveYardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/EnterGraveYardRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/InsertCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/InsertCardRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariableEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariableEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/SelectAndUseCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/SelectAndUseCardRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/ShowCardInfoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/ShowCardInfoRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/BattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/BattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewCollectTheFlags.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewCollectTheFlags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewHoldTheFlag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewHoldTheFlag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewKillTheHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewKillTheHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewMinion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewMinion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewSpell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewSpell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardsBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCollectedItemsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCollectedItemsBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowMinionsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowMinionsBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowSelectedItemInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowSelectedItemInfoBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/StartMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/StartMenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/BattleMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/BattleMenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/battleMenuViewChilds/BattleMenuError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/battleMenuViewChilds/BattleMenuError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewCollectTheFlags.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewCollectTheFlags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewHoldTheFlag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewHoldTheFlag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewKillTheHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewKillTheHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewMinion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewMinion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewSpell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewSpell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardsBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCollectedItemsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCollectedItemsBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowMinionsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowMinionsBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowSelectedItemInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowSelectedItemInfoBattleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/BattleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/BattleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/JsonToCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/JsonToCard.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,6 +189,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/BattleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/spell/Sacrifice.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/JsonToCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/CustomCard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -73,11 +233,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/GamePlay/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="465" column="16" lean-forward="true" selection-start-line="465" selection-start-column="16" selection-end-line="465" selection-end-column="16" />
+            <state relative-caret-position="145">
+              <caret line="494" column="20" selection-start-line="494" selection-start-column="20" selection-end-line="494" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -85,9 +245,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Spell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="140">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
                 <element signature="e#1770#1771#0" expanded="true" />
                 <element signature="e#1826#1827#0" expanded="true" />
                 <element signature="e#1876#1877#0" expanded="true" />
@@ -103,7 +265,7 @@
         <entry file="file://$PROJECT_DIR$/src/models/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -141,6 +303,7 @@
       <find>range</find>
       <find>castb</find>
       <find>Account account</find>
+      <find>insertcardreq</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -154,7 +317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controller/BattleController.java" />
         <option value="$PROJECT_DIR$/src/models/Buff.java" />
         <option value="$PROJECT_DIR$/src/models/Unit.java" />
         <option value="$PROJECT_DIR$/src/models/Card.java" />
@@ -162,6 +324,8 @@
         <option value="$PROJECT_DIR$/src/models/Target.java" />
         <option value="$PROJECT_DIR$/src/models/CustomCard.java" />
         <option value="$PROJECT_DIR$/src/models/GamePlay/GameLogic.java" />
+        <option value="$PROJECT_DIR$/src/models/JsonToCard.java" />
+        <option value="$PROJECT_DIR$/src/controller/BattleController.java" />
       </list>
     </option>
   </component>
@@ -202,6 +366,12 @@
               <item name="APP" type="b2602c69:ProjectViewProjectNode" />
               <item name="APP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -224,7 +394,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561532552144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561545123375" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-40" />
@@ -246,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -261,6 +431,20 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonToCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="models.JsonToCard" />
+      <module name="APP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -316,6 +500,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JsonToCard" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -328,7 +517,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1561525087718" duration="6430000" />
+      <workItem from="1561525087718" duration="8643000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1561490159880</created>
@@ -358,17 +547,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561530107013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="game logic changes">
+      <created>1561532573040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561532573040</updated>
+    </task>
+    <task id="LOCAL-00006" summary="battle controller update">
+      <created>1561534613417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561534613417</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7732000" />
+    <option name="totallyTimeSpent" value="9945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17986578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17986578" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,7 +583,7 @@
       <window_info anchor="bottom" id="Duplicate detector" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.27450982" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.33144477" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -391,7 +594,7 @@
       <window_info anchor="bottom" id="Changes" order="13" />
       <window_info anchor="bottom" id="Profiler" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32719547" />
       <window_info anchor="bottom" id="Terminal" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -415,7 +618,9 @@
     <MESSAGE value="first" />
     <MESSAGE value="second" />
     <MESSAGE value="custom card added" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom card added" />
+    <MESSAGE value="game logic changes" />
+    <MESSAGE value="battle controller update" />
+    <option name="LAST_COMMIT_MESSAGE" value="battle controller update" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -425,20 +630,6 @@
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/models/JsonToCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/BattleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/hero/Arash.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -456,9 +647,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/spell/TotalDisarm.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/spell/Sacrifice.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/json/spell/AreaDispel.json">
@@ -589,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/src/models/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -614,11 +802,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/GamePlay/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="494" column="20" selection-start-line="494" selection-start-column="20" selection-end-line="494" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Spell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="140">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
             <element signature="e#1770#1771#0" expanded="true" />
             <element signature="e#1826#1827#0" expanded="true" />
             <element signature="e#1876#1877#0" expanded="true" />
@@ -629,10 +826,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/GamePlay/GameLogic.java">
+    <entry file="file://$PROJECT_DIR$/json/spell/Sacrifice.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="465" column="16" lean-forward="true" selection-start-line="465" selection-start-column="16" selection-end-line="465" selection-end-column="16" />
+        <state relative-caret-position="680">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/JsonToCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/BattleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
