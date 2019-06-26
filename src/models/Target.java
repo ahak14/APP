@@ -14,7 +14,6 @@ public class Target  implements Serializable {
     private TargetType targetType;
     private boolean isDependentToCardLocation;
     private boolean isForDeckCards;
-
     private boolean isTargetEnemy;
 
     public Target(boolean isAffectCells, boolean isAffectHero, boolean isTargetEnemy,
@@ -71,5 +70,36 @@ public class Target  implements Serializable {
 
     public boolean isForDeckCards() {
         return isForDeckCards;
+    }
+    Target(){
+
+    }
+
+    public void setAffectCells(boolean affectCells) {
+        isAffectCells = affectCells;
+    }
+
+    public void setAffectHero(boolean affectHero) {
+        isAffectHero = affectHero;
+    }
+
+    public void setAffectMinion(boolean affectMinion) {
+        isAffectMinion = affectMinion;
+    }
+
+    public void setColumnsAffected(int columnsAffected) {
+        this.columnsAffected = columnsAffected;
+    }
+
+    public void setRowsAffected(int rowsAffected) {
+        this.rowsAffected = rowsAffected;
+    }
+
+    public void setTargetEnemy(boolean targetEnemy) {
+        isTargetEnemy = targetEnemy;
+    }
+
+    public void setTargetType(TargetType targetType) {
+        this.targetType = targetType;
     }
 }
