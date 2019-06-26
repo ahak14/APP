@@ -1,10 +1,12 @@
 package ui.battleUI;
 
+import javafx.event.EventTarget;
+import javafx.scene.Node;
 import javafx.scene.effect.PerspectiveTransform;
 import javafx.scene.layout.GridPane;
 import javafx.scene.shape.Rectangle;
 
-public class PolygonsBuilder {
+public class TableBuilder {
 
     private final int GRID_PANE_LAYOUT_X = 340;
     private final int GRID_PANE_LAYOUT_Y = 230;
@@ -13,13 +15,7 @@ public class PolygonsBuilder {
     private final int POLYGON_HEIGHT = 50;
     private final int POLYGON_WIDTH = 60;
 
-    private static PolygonsBuilder polygonsBuilder;
     private GridPane polygons = new GridPane();
-
-    public static PolygonsBuilder getPolygonsBuilder() {
-        if (polygonsBuilder == null) polygonsBuilder = new PolygonsBuilder();
-        return polygonsBuilder;
-    }
 
     public GridPane getPolygons() {
 
@@ -38,10 +34,11 @@ public class PolygonsBuilder {
         polygons.setLayoutX(GRID_PANE_LAYOUT_X);
         polygons.setLayoutY(GRID_PANE_LAYOUT_Y);
         perspective(polygons);
+
         return polygons;
     }
 
-    private void perspective(GridPane polygons) {
+    private void perspective(GridPane gridPane) {
 
         PerspectiveTransform e = new PerspectiveTransform();
         e.setUrx(9 * POLYGON_WIDTH + 8 * GRID_PANE_V_SPACE - 20);
@@ -53,6 +50,6 @@ public class PolygonsBuilder {
         e.setLlx(0);
         e.setLly(5 * POLYGON_HEIGHT + 4 * GRID_PANE_H_SPACE);
 
-        polygons.setEffect(e);
+        gridPane.setEffect(e);
     }
 }
