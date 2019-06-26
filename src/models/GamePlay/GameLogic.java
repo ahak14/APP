@@ -306,11 +306,10 @@ public class GameLogic {
     private TargetData findTarget(Spell spell, Cell cardCell, Cell clickCell, Cell heroCell) {
 
         TargetData targetData = new TargetData();
-
         if (spell.getTarget().isTargetEnemy()) {
-            setTargetData(spell, cardCell, clickCell, targetData);
+            setTargetData(spell, cardCell, clickCell, match.findPlayerDoesNotPlayingThisTurn(), targetData);
         } else {
-            setTargetData(spell, cardCell, heroCell, targetData);
+            setTargetData(spell, cardCell, heroCell, match.findPlayerPlayingThisTurn(), targetData);
         }
         if (spell.getTarget().isRandom()) {
             if (targetData.getCards().size() > 0) {
@@ -323,7 +322,8 @@ public class GameLogic {
     }
 
 
-    private void setTargetData(Spell spell, Cell cardCell, Cell clickCell, TargetData targetData) {
+    private void setTargetData(Spell spell, Cell cardCell, Cell clickCell, Account account, TargetData targetData) {
+        targetData.getAccounts().add(account);
 
         if (spell.getTarget().getRowsAffected() != 0 && spell.getTarget().getColumnsAffected() != 0) {
 
@@ -331,7 +331,7 @@ public class GameLogic {
             Coordination coordination = new Coordination();
             coordination.setRow(spell.getTarget().getRowsAffected());
             coordination.setColumn(spell.getTarget().getColumnsAffected());
-            ArrayList<Cell> targetCells = detectCells(centerPosition, coordination); //todo
+            ArrayList<Cell> targetCells = detectCells(centerPosition, coordination);
             addUnitsAndCellsToTargetData(spell, targetData, targetCells);
 
             if (spell.getTarget().isRandom()) {
