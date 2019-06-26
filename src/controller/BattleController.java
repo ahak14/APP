@@ -5,6 +5,7 @@ import models.GamePlay.GameLogic;
 import models.GamePlay.Match;
 import request.battleRequest.BattleRequest;
 import request.battleRequest.BattleRequestChilds.*;
+import ui.battleUI.BattleUI;
 import ui.battleUI.Main;
 import view.battleView.*;
 
@@ -38,6 +39,7 @@ public class BattleController {
         battleLogicController.setGameLogic(gameLogic);
         battleLogicController.setMatch(match);
         BattleLog.logTurnForWho(match.findPlayerPlayingThisTurn().getUserName());
+        Main.match = match;
         Main.main(null);
         //manageRequest();
     }
@@ -440,8 +442,7 @@ public class BattleController {
 
         for (Cell[] row : cells) {
             for (Cell cell : row) {
-
-
+                //todo
             }
         }
         gameInfoBattleViewCollectTheFlags.show(gameInfoBattleViewCollectTheFlags);

@@ -453,7 +453,7 @@ public class GameLogic {
         castBuffOnCards(buff, targetData.getCards());
         //  castBuffOnCells(buff, targetData.getCells());
         castBuffOnUnits(buff, targetData.getUnits());
-        castBuffOnUsers(buff, targetData.getAccounts());
+      //  castBuffOnUsers(buff, targetData.getAccounts());
 
         buff.decrementDuration();
     }
