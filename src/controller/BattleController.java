@@ -19,7 +19,7 @@ public class BattleController {
     private Match match;
     private GameLogic gameLogic;
     private BattleLogicController battleLogicController;
-    private boolean isEndedGame = false;
+    private int isEndedGame = 0;
 
     public static BattleController getInstance() {
 
@@ -47,7 +47,15 @@ public class BattleController {
     private void manageRequest() {
 
         while (true) {
-
+            if (isEndedGame != 0) {
+                if (isEndedGame == 1) {
+                    BattleLog.PlayerOneWins();
+                }
+                else {
+                    BattleLog.PlayerTwoWins();
+                }
+                break;
+            }
             BattleRequest request = battleRequest.getRequest();
 
             if (request instanceof SelectAndUseCardRequest)
@@ -64,8 +72,6 @@ public class BattleController {
 
             else if (request instanceof RequestWithoutVariable)
                 requestWithoutVariable((RequestWithoutVariable) request);
-
-            if (isEndedGame) break;
         }
     }
 
@@ -190,7 +196,7 @@ public class BattleController {
         }
 
         ArrayList<String> myCardsID = request.getMyCardsID();
-        ArrayList<Card> myCards = new ArrayList<>();
+        ArrayList<Unit> myCards = new ArrayList<>();
 
         for (String myCardID : myCardsID) {
 
@@ -203,8 +209,10 @@ public class BattleController {
                 BattleLog.errorHasNotCombo();
                 return;
             }
-            myCards.add(myCard);
+            myCards.add((Unit) myCard);
         }
+        Unit[] attackers = (Unit[]) myCards.toArray();
+        gameLogic.comboAttack(attackers, (Unit) opponent);
         //todo
     }
 
@@ -323,13 +331,17 @@ public class BattleController {
                 }
                 if (spell.getTarget().isTargetEnemy() &&
                         !cell.getCard().getTeam().equals(match.findPlayerDoesNotPlayingThisTurn().getUserName())) {
-                    BattleLog.errorItIsYourUnit();
-                    return;
+                    if (card.getSpells().size() == 1) {
+                        BattleLog.errorItIsYourUnit();
+                        return;
+                    }
                 }
                 if (!spell.getTarget().isTargetEnemy() &&
                         cell.getCard().getTeam().equals(match.findPlayerDoesNotPlayingThisTurn().getUserName())) {
-                    BattleLog.errorItIsUnitOfEnemy();
-                    return;
+                    if (card.getSpells().size() == 1) {
+                        BattleLog.errorItIsUnitOfEnemy();
+                        return;
+                    }
                 }
                 gameLogic.insertProcess(spell, cell);
             }
@@ -361,7 +373,7 @@ public class BattleController {
             showCollectedItemRequest();
 
         else if (request.getEnumRequest() == RequestWithoutVariableEnum.END_GAME_REQUEST)
-            isEndedGame = false;
+            isEndedGame = 0;
 
         else if (request.getEnumRequest() == RequestWithoutVariableEnum.HELP_REQUEST)
             BattleLog.showHelp();
@@ -568,5 +580,9 @@ public class BattleController {
             }
         }
         endTurnRequest();
+    }
+
+    public void setIsEndedGame(int isEndedGame) {
+        this.isEndedGame = isEndedGame;
     }
 }
