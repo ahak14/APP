@@ -1,378 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="game play">
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/flag/flag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/afsaaneh/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/afsaaneh/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/afsaaneh/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/afsaaneh/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/afsaaneh/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arash/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arash/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arash/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arash/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arash/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arzhang/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arzhang/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arzhang/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/arzhang/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ashkbous/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ashkbous/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ashkbous/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ashkbous/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/bahman/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/bahman/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/bahman/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/bahman/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_giant/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_giant/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_giant/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_giant/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_snake/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_snake/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_snake/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/big_snake/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/black_demon/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/black_demon/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/black_demon/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/black_demon/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/eagle/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/eagle/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/eagle/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/eagle/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ejdehaHaftSar/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ejdehaHaftSar/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ejdehaHaftSar/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/ejdehaHaftSar/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/esfandiar/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/esfandiar/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/esfandiar/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/esfandiar/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/esfandiar/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/fire_thrower_dragon/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/fire_thrower_dragon/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/fire_thrower_dragon/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/fire_thrower_dragon/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/gen/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/gen/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/gen/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/gen/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/giv/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/giv/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/giv/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/giv/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/great_wizard/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/great_wizard/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/great_wizard/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/great_wizard/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/hog_rider_demon/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/hog_rider_demon/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/hog_rider_demon/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/hog_rider_demon/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/iraj/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/iraj/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/iraj/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/iraj/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/kaveh/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/kaveh/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/kaveh/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/kaveh/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/kaveh/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/nane_sarma/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/nane_sarma/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/nane_sarma/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/nane_sarma/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/one_eye_ghool/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/one_eye_ghool/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/one_eye_ghool/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/one_eye_ghool/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/panther/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/panther/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/panther/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/panther/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_archer/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_archer/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_archer/projectile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_archer/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_archer/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_athlete/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_athlete/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_athlete/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_athlete/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_frontman/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_frontman/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_frontman/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_frontman/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_horse_man/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_horse_man/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_horse_man/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_horse_man/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_spear_man/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_spear_man/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_spear_man/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_spear_man/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_swords_man/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_swords_man/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_swords_man/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/persian_swords_man/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/piran/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/piran/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/piran/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/piran/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/poisonous_snake/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/poisonous_snake/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/poisonous_snake/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/poisonous_snake/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/predator_lion/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/predator_lion/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/predator_lion/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/predator_lion/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rakhsh/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rakhsh/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rakhsh/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rakhsh/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rakhsh/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rostam/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rostam/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rostam/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rostam/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/rostam/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/seven_head_dragon/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/seven_head_dragon/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/seven_head_dragon/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/seven_head_dragon/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/shah_ghool/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/shah_ghool/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/shah_ghool/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/shah_ghool/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/siavash/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/siavash/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/siavash/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/siavash/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/simorgh/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/simorgh/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/simorgh/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/simorgh/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/steel_armored/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/steel_armored/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/steel_armored/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/steel_armored/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/stone_thrower_giant/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/stone_thrower_giant/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/stone_thrower_giant/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/stone_thrower_giant/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_archer/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_archer/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_archer/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_archer/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_mace_man/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_mace_man/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_mace_man/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_mace_man/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_prince/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_prince/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_prince/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_prince/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spear_man/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spear_man/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spear_man/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spear_man/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spy/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spy/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spy/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_spy/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_stone_thrower/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_stone_thrower/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_stone_thrower/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/turanian_stone_thrower/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/two_headed_giant/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/two_headed_giant/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/two_headed_giant/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/two_headed_giant/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_demon/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_demon/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_demon/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_demon/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_wolf/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_wolf/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_wolf/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/white_wolf/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wild_boar/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wild_boar/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wild_boar/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wild_boar/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wizard/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wizard/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wizard/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wizard/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wolf/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wolf/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wolf/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/wolf/stand" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/zahak/attack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/zahak/death" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/zahak/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/battle/units/zahak/spell" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/battleUI/GraveYard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/battleUI/GraveYardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/battleUI/GraveYardItem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="unit in table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/hero/Esfandiar.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/hero/Esfandiar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/hero/Rustam.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/hero/Simurgh.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/minion/Arjang.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/minion/Geev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/minion/Gin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/AccountMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleLogicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleLogicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/BattleMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CollectionController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CollectionController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CollectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CollectionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/CollectionErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/CollectionErrors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/DeckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/DeckController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/ShopController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/ShopController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/controller/StartMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Account$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Account$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Buff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Buff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/CardType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Collection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Coordination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Coordination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Deck$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Deck$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GameLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GraveYard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GamePlay/GraveYard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GamePlay/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GamePlay/Match.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/GameStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/GameStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Hand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/History.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/JsonToCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/JsonToCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/LoginMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/LoginMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/MatchType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/MatchType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/SpecialMinion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/SpecialMinion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/SpecialPowerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/SpecialPowerType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Spell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Target.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/TargetData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/TargetData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/TargetType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/TargetType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/Unit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/models/UnitType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/models/UnitType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/AccountMenuRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountCreate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountLoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountLoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountOptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountOptionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountSimpleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/accountMenuRequest/accountMenuRequestChilds/AccountSimpleRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/BattleMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/BattleMenuRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/CustomGameRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/CustomGameRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/MultiPlayerMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/MultiPlayerMenuRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/RequestMatchType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleMenuRequest/battleMenuRequestChilds/RequestMatchType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/EnterGraveYardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/EnterGraveYardRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/InsertCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/InsertCardRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariableEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/RequestWithoutVariableEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/SelectAndUseCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/SelectAndUseCardRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/ShowCardInfoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/battleRequest/BattleRequestChilds/ShowCardInfoRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/CollectionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/CollectionRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/CollectionOptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/CollectionOptionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/DeckCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/DeckCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Remove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/Remove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/SimpleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/collectionMenuRequest/collectionRequestChilds/SimpleRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/ShopRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/ShopRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/CommandType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestWithOutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopRequestWithOutVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopSimpleRequestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/shopMenuRequest/shopRequestChilds/ShopSimpleRequestList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/startMenuController/StartMenuRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/startMenuController/StartMenuRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/request/startMenuController/startMenuRequestChilds/StartMenuOptionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/ImageLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/ImageLibrary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/BattleUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/BattleUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/PolygonsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/BattleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/BattleRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/EnterGraveYardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/EnterGraveYardRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/InsertCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/InsertCardRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariableEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/RequestWithoutVariableEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/SelectAndUseCardRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/SelectAndUseCardRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/ShowCardInfoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleRequests/ShowCardInfoRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/BattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/BattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewCollectTheFlags.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewCollectTheFlags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewHoldTheFlag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewHoldTheFlag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewKillTheHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/GameInfoBattleViewKillTheHero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewHero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewMinion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewMinion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewSpell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardInfoBattleViewSpell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCardsBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCollectedItemsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowCollectedItemsBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowMinionsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowMinionsBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowSelectedItemInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/battleUI/battleViews/ShowSelectedItemInfoBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/ui/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/ui/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/AccountMenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/StartMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/StartMenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/BattleMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/BattleMenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/battleMenuViewChilds/BattleMenuError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleMenuView/battleMenuViewChilds/BattleMenuError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/BattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewCollectTheFlags.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewCollectTheFlags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewHoldTheFlag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewHoldTheFlag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewKillTheHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/GameInfoBattleViewKillTheHero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewHero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewMinion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewMinion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewSpell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardInfoBattleViewSpell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCardsBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCollectedItemsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowCollectedItemsBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowMinionsBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowMinionsBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowSelectedItemInfoBattleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/battleView/ShowSelectedItemInfoBattleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/collectionMenuView/CollectionMenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APP/view/shopMenuView/ShopMenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/BattleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/BattleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Buff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Buff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/GamePlay/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/GamePlay/GameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/GamePlay/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/GamePlay/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/JsonToCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/JsonToCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ImageLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ImageLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/battleUI/BattleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/battleUI/BattleUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/battleUI/HandBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/battleUI/HandBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/battleUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/battleUI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/battleUI/PolygonsBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/battleUI/TableBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/battleUI/TableBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/battleView/BattleLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/battleView/BattleLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/ali.ser" beforeDir="false" afterPath="$PROJECT_DIR$/users/ali.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/amir.ser" beforeDir="false" afterPath="$PROJECT_DIR$/users/amir.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listOfUserName.txt" beforeDir="false" afterPath="$PROJECT_DIR$/listOfUserName.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testCase.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/ali.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/amir.ser" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -442,13 +76,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/battleUI/BattleUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="180" column="36" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
+            <state relative-caret-position="140">
+              <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testCase.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="55" column="4" lean-forward="true" selection-start-line="31" selection-end-line="55" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/ShopController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listOfUserName.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -487,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/json/minion/Arzhang.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
-              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -504,9 +161,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cast</find>
-      <find>ali</find>
       <find>amir</find>
       <find>initia</find>
+      <find>ali</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -521,8 +178,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ui/battleUI/PolygonsBuilder.java" />
-        <option value="$PROJECT_DIR$/testCase.txt" />
-        <option value="$PROJECT_DIR$/listOfUserName.txt" />
         <option value="$PROJECT_DIR$/src/ui/ImageLibrary.java" />
         <option value="$PROJECT_DIR$/json/hero/Esfandiar.json" />
         <option value="$PROJECT_DIR$/json/hero/Rustam.json" />
@@ -540,8 +195,10 @@
         <option value="$PROJECT_DIR$/src/ui/battleUI/GraveYardItem.fxml" />
         <option value="$PROJECT_DIR$/src/ui/battleUI/GraveYard.fxml" />
         <option value="$PROJECT_DIR$/json/minion/Arzhang.json" />
-        <option value="$PROJECT_DIR$/src/ui/battleUI/BattleUI.java" />
         <option value="$PROJECT_DIR$/src/ui/battleUI/TableBuilder.java" />
+        <option value="$PROJECT_DIR$/src/ui/battleUI/BattleUI.java" />
+        <option value="$PROJECT_DIR$/listOfUserName.txt" />
+        <option value="$PROJECT_DIR$/testCase.txt" />
       </list>
     </option>
   </component>
@@ -610,11 +267,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APP" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -819,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561790408187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="unit in table">
+      <created>1561834790928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561834790928</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -827,7 +486,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -871,22 +529,14 @@
     <MESSAGE value="first" />
     <MESSAGE value="update" />
     <MESSAGE value="game play" />
-    <option name="LAST_COMMIT_MESSAGE" value="game play" />
+    <MESSAGE value="unit in table" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit in table" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/json/minion/BigGiant.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/minion/BigSnake.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/minion/BlackDemon.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/minion/Eagle.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1170,7 +820,7 @@
     <entry file="file://$PROJECT_DIR$/json/minion/Arzhang.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1188,8 +838,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/battleUI/BattleUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="180" column="36" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
+        <state relative-caret-position="140">
+          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listOfUserName.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ShopController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" column="4" lean-forward="true" selection-start-line="31" selection-end-line="55" selection-end-column="4" />
         </state>
       </provider>
     </entry>
