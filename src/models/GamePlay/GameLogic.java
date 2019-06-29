@@ -11,7 +11,6 @@ public class GameLogic {
 
     public final int PLAYER1_WINS = 1;
     public final int PLAYER2_WINS = 2;
-    public final int DRAW = 3;
     public final int MATCH_HAS_NOT_ENDED = 0;
     public final int NUMBER_OF_TURNS_TO_HOLD_THE_FLAG = 6;
     int flagsNumber;
@@ -113,7 +112,6 @@ public class GameLogic {
         int player1HeroHP = ((Unit) match.getPlayer1().getHand().getHero()).getHP();
         int player2HeroHP = ((Unit) match.getPlayer2().getHand().getHero()).getHP();
 
-        if (player1HeroHP <= 0 && player2HeroHP <= 0) return DRAW;
         if (player1HeroHP <= 0) return PLAYER2_WINS;
         if (player2HeroHP <= 0) return PLAYER1_WINS;
 

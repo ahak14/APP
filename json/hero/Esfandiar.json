@@ -1,11 +1,11 @@
 {
-  "cardName": "rakhsh",
+  "cardName": "esfandiar",
   "description": "a MELEE HERO, 50 HP and 4 AP \n STUN buff spell for 1 round ",
   "type": "HERO",
   "price": 8000,
   "spells": [
     {
-      "spellName": "rakhsh_stun",
+      "spellName": "esfandiar_stun",
       "buff": {
         "stun": true,
         "duration": 1

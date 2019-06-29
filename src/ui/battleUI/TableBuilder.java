@@ -17,7 +17,7 @@ public class TableBuilder {
 
     private GridPane polygons = new GridPane();
 
-    public GridPane getPolygons() {
+    GridPane getPolygons() {
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 9; j++) {
