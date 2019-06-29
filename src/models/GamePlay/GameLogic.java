@@ -1,8 +1,6 @@
 package models.GamePlay;
 
-import controller.BattleController;
 import models.*;
-import view.battleView.BattleLog;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -500,7 +498,7 @@ public class GameLogic {
         castBuffOnCards(buff, targetData.getCards());
         //  castBuffOnCells(buff, targetData.getCells());
         castBuffOnUnits(buff, targetData.getUnits());
-        castBuffOnUsers(buff, targetData.getAccounts());
+      //  castBuffOnUsers(buff, targetData.getAccounts());
 
         buff.decrementDuration();
     }

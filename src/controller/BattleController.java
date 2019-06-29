@@ -1,5 +1,6 @@
 package controller;
 
+import javafx.application.Platform;
 import models.*;
 import models.GamePlay.GameLogic;
 import models.GamePlay.Match;
@@ -14,6 +15,7 @@ import java.util.Collections;
 
 public class BattleController {
 
+    public static BattleUI battleUI;
     private static BattleController battleController;
     private BattleRequest battleRequest = BattleRequest.getInstance();
     private Match match;
@@ -39,8 +41,12 @@ public class BattleController {
         battleLogicController.setGameLogic(gameLogic);
         battleLogicController.setMatch(match);
         BattleLog.logTurnForWho(match.findPlayerPlayingThisTurn().getUserName());
-        //Main.match = match;
-        //Main.main(null);
+
+        new Thread(() -> {
+            Main.match = match;
+            Main.main(null);
+        }).start();
+
         manageRequest();
     }
 
@@ -72,6 +78,12 @@ public class BattleController {
 
             else if (request instanceof RequestWithoutVariable)
                 requestWithoutVariable((RequestWithoutVariable) request);
+
+            Platform.runLater(() -> {
+
+                battleUI.updateHeroHP();
+                battleUI.updatePlayersMana();
+            });
         }
     }
 
