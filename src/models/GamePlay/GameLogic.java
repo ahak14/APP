@@ -1,5 +1,6 @@
 package models.GamePlay;
 
+import controller.BattleController;
 import models.*;
 
 import java.util.ArrayList;
@@ -121,7 +122,7 @@ public class GameLogic {
     }
 
     private int getMatchResultForHoldTheFlag() {
-
+        getMatchResultForKillTheHero();
         Cell[][] cells = match.getTable().getCells();
 
         for (Cell[] row : cells) {
@@ -165,7 +166,7 @@ public class GameLogic {
     }
 
     private int getMatchResultForCollectTheFlags() {
-
+        getMatchResultForKillTheHero();
         Cell[][] cells = match.getTable().getCells();
         int player1Flag = 0, player2Flag = 0;
 
