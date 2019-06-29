@@ -53,6 +53,7 @@ public class BattleController {
     private void manageRequest() {
 
         while (true) {
+
             if (isEndedGame != 0) {
                 if (isEndedGame == 1) {
                     BattleLog.PlayerOneWins();
@@ -62,6 +63,7 @@ public class BattleController {
                 }
                 break;
             }
+
             BattleRequest request = battleRequest.getRequest();
 
             if (request instanceof SelectAndUseCardRequest)
@@ -83,6 +85,7 @@ public class BattleController {
 
                 battleUI.updateHeroHP();
                 battleUI.updatePlayersMana();
+                battleUI.tableBuilder.updateTable(match);
             });
         }
     }

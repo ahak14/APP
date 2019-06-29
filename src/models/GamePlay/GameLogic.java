@@ -1,5 +1,6 @@
 package models.GamePlay;
 
+import controller.BattleController;
 import models.*;
 
 import java.util.ArrayList;

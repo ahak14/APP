@@ -8,13 +8,14 @@ public class Match {
 
     Table table = new Table();
     Account player1, player2;
-    GraveYard Player1GraveYard = new GraveYard();
-    GraveYard Player2GraveYard = new GraveYard();
+    private GraveYard Player1GraveYard = new GraveYard();
+    private GraveYard Player2GraveYard = new GraveYard();
     private MatchType matchType;
     private GameLogic gameLogic;
     int turnNumber = 1;
     int player1Mana = 2, player2Mana = 2;
     int initialPlayer1ManaInBeginningOfEachTurn = 2, initialPlayer2ManaInBeginningOfEachTurn = 2;
+
 
     public Account getPlayer1() {
         return player1;
@@ -99,8 +100,8 @@ public class Match {
         Card hero1 = player1.getHand().getHero();
         Card hero2 = player2.getHand().getHero();
 
-        Cell cellHero1 = table.getCells()[2][1];
-        Cell cellHero2 = table.getCells()[2][7];
+        Cell cellHero1 = table.getCells()[2][7];
+        Cell cellHero2 = table.getCells()[2][1];
         cellHero1.setCard(hero1);
         cellHero2.setCard(hero2);
         hero1.setCell(cellHero1);

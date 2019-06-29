@@ -17,10 +17,8 @@ import ui.ImageLibrary;
 public class BattleUI {
 
     private Match match;
-
-    private ImageView background;
-    private TableBuilder tableBuilder = new TableBuilder();
-    private HandBuilder handBuilder = new HandBuilder();
+    public TableBuilder tableBuilder = new TableBuilder();
+    public HandBuilder handBuilder = new HandBuilder();
 
     private ImageView[] player1Mana = new ImageView[9];
     private ImageView[] player2Mana = new ImageView[9];
@@ -35,13 +33,15 @@ public class BattleUI {
     public void battleUI(Stage mainStage) {
 
         Pane pane = new Pane();
-        background = new ImageView(ImageLibrary.Background.getImage());
+        ImageView background = new ImageView(ImageLibrary.Background.getImage());
         background.fitHeightProperty().bind(mainStage.heightProperty());
         background.fitWidthProperty().bind(mainStage.widthProperty());
 
-        GridPane polygons = tableBuilder.getPolygons();
 
-        pane.getChildren().addAll(background, header(), endTurnButton(), polygons, handBuilder.getHand());
+        pane.getChildren().addAll(background, header(), endTurnButton(),
+                tableBuilder.getPolygons(), tableBuilder.getTable(match), handBuilder.getHand());
+
+
         Scene scene = new Scene(pane, 1280, 720);
         scene.getStylesheets().add(getClass().getResource("/ui/style/style.css").toExternalForm());
         scene.setCursor(new ImageCursor(ImageLibrary.CursorImage.getImage()));
@@ -154,14 +154,14 @@ public class BattleUI {
 
         updatePlayersMana();
 
-        for (int i = 0; i < 9 /*numberOfAllMana*/; i++) player1ManaBox.getChildren().add(player1Mana[i]);
-        for (int i = 8; i >= 0; i--) player2ManaBox.getChildren().add(player2Mana[i]);
+        for (int i = 8; i >= 0; i--) player1ManaBox.getChildren().add(player1Mana[i]);
+        for (int i = 0; i < 9 /*numberOfAllMana*/; i++) player2ManaBox.getChildren().add(player2Mana[i]);
 
 
-        player1ManaBox.relocate(320, 70);
-        player2ManaBox.relocate(710, 70);
-        player1ManaBox.setSpacing(-35);
+        player2ManaBox.relocate(320, 70);
+        player1ManaBox.relocate(710, 70);
         player2ManaBox.setSpacing(-35);
+        player1ManaBox.setSpacing(-35);
 
         player1ManaBox.setRotate(3);
         player2ManaBox.setRotate(-3);

@@ -14,12 +14,14 @@ public class HandBuilder {
         for (int i = 0; i < 6; i++) {
 
             ImageView cardAroundImage = new ImageView(ImageLibrary.HandCardAround.getImage());
+            cardAroundImage.setScaleX(0.7);
+            cardAroundImage.setScaleY(0.7);
             cardAroundImage.getStyleClass().add("enterMouseOnHandCard");
             hand.getChildren().add(cardAroundImage);
         }
 
-        hand.relocate(250, 570);
-        hand.setSpacing(20);
+        hand.relocate(330, 570);
+        hand.setSpacing(-10);
         return hand;
     }
 }
