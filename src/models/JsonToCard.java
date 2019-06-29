@@ -79,9 +79,6 @@ public class JsonToCard {
             try (Reader reader = new FileReader(listOfFile)) {
                 Spell card = gson.fromJson(reader, Spell.class);
                 collection.addCardToCollection(card);
-                if (card.getCardName().equals("sacrifice")) {
-                    System.out.println(gson.toJson(card));
-                }
             } catch (IOException e) {
                 e.printStackTrace();
             }

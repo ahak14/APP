@@ -314,6 +314,7 @@ public class GameLogic {
             cardsInTablePlayer2.remove(unit);
             match.getPlayer2GraveYard().addCardToGraveYard(unit);
         }
+
     }
 
     private void ActivateOnDeathSpells(Unit unit) {
