@@ -111,4 +111,10 @@ public class Deck implements Serializable {
         }
         return deck;
     }
+    public void addCard(Card card){
+        cards.add(card);
+    }
+    public void setCards(ArrayList<Card> cards){
+        this.cards = cards;
+    }
 }
